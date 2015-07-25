@@ -13,12 +13,19 @@
 		2BAB19F21B639C0600BDC591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB19F11B639C0600BDC591 /* Assets.xcassets */; };
 		2BAB19F51B639C0600BDC591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB19F31B639C0600BDC591 /* LaunchScreen.storyboard */; };
 		2BAB19FA1B639C0600BDC591 /* AnimationSample WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2BAB19F91B639C0600BDC591 /* AnimationSample WatchKit App.app */; };
-		2BAB1A001B639C0600BDC591 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB19FE1B639C0600BDC591 /* Interface.storyboard */; };
 		2BAB1A021B639C0600BDC591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB1A011B639C0600BDC591 /* Assets.xcassets */; };
 		2BAB1A091B639C0600BDC591 /* AnimationSample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BAB1A081B639C0600BDC591 /* AnimationSample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2BAB1A0E1B639C0600BDC591 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A0D1B639C0600BDC591 /* InterfaceController.swift */; };
 		2BAB1A101B639C0600BDC591 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A0F1B639C0600BDC591 /* ExtensionDelegate.swift */; };
 		2BAB1A121B639C0600BDC591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB1A111B639C0600BDC591 /* Assets.xcassets */; };
+		2BAB1A221B639C3100BDC591 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB1A211B639C3100BDC591 /* Interface.storyboard */; };
+		2BAB1A2A1B639C5B00BDC591 /* AlignmentHorizontalInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A231B639C5B00BDC591 /* AlignmentHorizontalInterfaceController.swift */; };
+		2BAB1A2B1B639C5B00BDC591 /* AlignmentVerticalInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A241B639C5B00BDC591 /* AlignmentVerticalInterfaceController.swift */; };
+		2BAB1A2C1B639C5B00BDC591 /* AlphaInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A251B639C5B00BDC591 /* AlphaInterfaceController.swift */; };
+		2BAB1A2D1B639C5B00BDC591 /* GroupBackgroundColorInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A261B639C5B00BDC591 /* GroupBackgroundColorInterfaceController.swift */; };
+		2BAB1A2E1B639C5B00BDC591 /* GroupInsetsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A271B639C5B00BDC591 /* GroupInsetsInterfaceController.swift */; };
+		2BAB1A2F1B639C5B00BDC591 /* SizeHeightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A281B639C5B00BDC591 /* SizeHeightInterfaceController.swift */; };
+		2BAB1A301B639C5B00BDC591 /* SizeWidthInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A291B639C5B00BDC591 /* SizeWidthInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +79,6 @@
 		2BAB19F41B639C0600BDC591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BAB19F61B639C0600BDC591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BAB19F91B639C0600BDC591 /* AnimationSample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnimationSample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BAB19FF1B639C0600BDC591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		2BAB1A011B639C0600BDC591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BAB1A031B639C0600BDC591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BAB1A081B639C0600BDC591 /* AnimationSample WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AnimationSample WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +86,14 @@
 		2BAB1A0F1B639C0600BDC591 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		2BAB1A111B639C0600BDC591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BAB1A131B639C0600BDC591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BAB1A211B639C3100BDC591 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		2BAB1A231B639C5B00BDC591 /* AlignmentHorizontalInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentHorizontalInterfaceController.swift; sourceTree = "<group>"; };
+		2BAB1A241B639C5B00BDC591 /* AlignmentVerticalInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentVerticalInterfaceController.swift; sourceTree = "<group>"; };
+		2BAB1A251B639C5B00BDC591 /* AlphaInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphaInterfaceController.swift; sourceTree = "<group>"; };
+		2BAB1A261B639C5B00BDC591 /* GroupBackgroundColorInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupBackgroundColorInterfaceController.swift; sourceTree = "<group>"; };
+		2BAB1A271B639C5B00BDC591 /* GroupInsetsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupInsetsInterfaceController.swift; sourceTree = "<group>"; };
+		2BAB1A281B639C5B00BDC591 /* SizeHeightInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeHeightInterfaceController.swift; sourceTree = "<group>"; };
+		2BAB1A291B639C5B00BDC591 /* SizeWidthInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeWidthInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +150,7 @@
 		2BAB19FD1B639C0600BDC591 /* AnimationSample WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				2BAB19FE1B639C0600BDC591 /* Interface.storyboard */,
+				2BAB1A211B639C3100BDC591 /* Interface.storyboard */,
 				2BAB1A011B639C0600BDC591 /* Assets.xcassets */,
 				2BAB1A031B639C0600BDC591 /* Info.plist */,
 			);
@@ -148,6 +162,13 @@
 			children = (
 				2BAB1A0D1B639C0600BDC591 /* InterfaceController.swift */,
 				2BAB1A0F1B639C0600BDC591 /* ExtensionDelegate.swift */,
+				2BAB1A231B639C5B00BDC591 /* AlignmentHorizontalInterfaceController.swift */,
+				2BAB1A241B639C5B00BDC591 /* AlignmentVerticalInterfaceController.swift */,
+				2BAB1A251B639C5B00BDC591 /* AlphaInterfaceController.swift */,
+				2BAB1A261B639C5B00BDC591 /* GroupBackgroundColorInterfaceController.swift */,
+				2BAB1A271B639C5B00BDC591 /* GroupInsetsInterfaceController.swift */,
+				2BAB1A281B639C5B00BDC591 /* SizeHeightInterfaceController.swift */,
+				2BAB1A291B639C5B00BDC591 /* SizeWidthInterfaceController.swift */,
 				2BAB1A111B639C0600BDC591 /* Assets.xcassets */,
 				2BAB1A131B639C0600BDC591 /* Info.plist */,
 			);
@@ -265,8 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BAB1A221B639C3100BDC591 /* Interface.storyboard in Resources */,
 				2BAB1A021B639C0600BDC591 /* Assets.xcassets in Resources */,
-				2BAB1A001B639C0600BDC591 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BAB1A2E1B639C5B00BDC591 /* GroupInsetsInterfaceController.swift in Sources */,
+				2BAB1A2A1B639C5B00BDC591 /* AlignmentHorizontalInterfaceController.swift in Sources */,
 				2BAB1A101B639C0600BDC591 /* ExtensionDelegate.swift in Sources */,
 				2BAB1A0E1B639C0600BDC591 /* InterfaceController.swift in Sources */,
+				2BAB1A2D1B639C5B00BDC591 /* GroupBackgroundColorInterfaceController.swift in Sources */,
+				2BAB1A301B639C5B00BDC591 /* SizeWidthInterfaceController.swift in Sources */,
+				2BAB1A2B1B639C5B00BDC591 /* AlignmentVerticalInterfaceController.swift in Sources */,
+				2BAB1A2C1B639C5B00BDC591 /* AlphaInterfaceController.swift in Sources */,
+				2BAB1A2F1B639C5B00BDC591 /* SizeHeightInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,14 +357,6 @@
 				2BAB19F41B639C0600BDC591 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		2BAB19FE1B639C0600BDC591 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BAB19FF1B639C0600BDC591 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

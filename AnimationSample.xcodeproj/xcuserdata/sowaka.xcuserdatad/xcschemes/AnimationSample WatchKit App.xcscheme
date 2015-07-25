@@ -5,6 +5,50 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BAB19F81B639C0600BDC591"
+               BuildableName = "AnimationSample WatchKit App.app"
+               BlueprintName = "AnimationSample WatchKit App"
+               ReferencedContainer = "container:AnimationSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BAB19E61B639C0600BDC591"
+               BuildableName = "AnimationSample.app"
+               BlueprintName = "AnimationSample"
+               ReferencedContainer = "container:AnimationSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BAB1A071B639C0600BDC591"
+               BuildableName = "AnimationSample WatchKit Extension.appex"
+               BlueprintName = "AnimationSample WatchKit Extension"
+               ReferencedContainer = "container:AnimationSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -13,6 +57,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BAB19F81B639C0600BDC591"
+            BuildableName = "AnimationSample WatchKit App.app"
+            BlueprintName = "AnimationSample WatchKit App"
+            ReferencedContainer = "container:AnimationSample.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +79,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/AnimationSample WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BAB19F81B639C0600BDC591"
+            BuildableName = "AnimationSample WatchKit App.app"
+            BlueprintName = "AnimationSample WatchKit App"
+            ReferencedContainer = "container:AnimationSample.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BAB19F81B639C0600BDC591"
+            BuildableName = "AnimationSample WatchKit App.app"
+            BlueprintName = "AnimationSample WatchKit App"
+            ReferencedContainer = "container:AnimationSample.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +109,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/AnimationSample WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BAB19F81B639C0600BDC591"
+            BuildableName = "AnimationSample WatchKit App.app"
+            BlueprintName = "AnimationSample WatchKit App"
+            ReferencedContainer = "container:AnimationSample.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BAB19F81B639C0600BDC591"
+            BuildableName = "AnimationSample WatchKit App.app"
+            BlueprintName = "AnimationSample WatchKit App"
+            ReferencedContainer = "container:AnimationSample.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
