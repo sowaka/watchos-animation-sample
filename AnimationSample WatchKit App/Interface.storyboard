@@ -59,6 +59,13 @@
                                 <segue destination="AnP-ge-2fr" kind="push" id="gS0-Qg-SA3"/>
                             </connections>
                         </button>
+                        <separator alignment="left" id="D2P-GF-g5j"/>
+                        <label alignment="left" text="Others" id="Txq-9c-XBc"/>
+                        <button width="1" alignment="left" title="Sequential" id="mey-yJ-XwP">
+                            <connections>
+                                <segue destination="Q03-3a-xYy" kind="push" id="T1V-d7-THs"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
@@ -314,6 +321,43 @@ A
                 </controller>
             </objects>
             <point key="canvasLocation" x="562" y="901"/>
+        </scene>
+        <!--Sequential Interface Controller-->
+        <scene sceneID="3iJ-Dy-iR4">
+            <objects>
+                <controller hidesWhenLoading="NO" id="Q03-3a-xYy" customClass="SequentialInterfaceController" customModule="AnimationSample_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" verticalAlignment="center" id="Sek-4g-ch0">
+                            <items>
+                                <group width="20" height="20" alignment="center" alpha="0.25" radius="10" id="qyh-gg-F9t">
+                                    <color key="backgroundColor" red="0.0" green="0.39954377689999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </group>
+                                <group width="20" height="20" alignment="center" alpha="0.25" radius="10" id="EcA-Wt-zrf">
+                                    <color key="backgroundColor" red="0.0" green="0.39954377689999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </group>
+                                <group width="20" height="20" alignment="center" alpha="0.25" radius="10" id="kDO-z6-0y0">
+                                    <color key="backgroundColor" red="0.0" green="0.39954377689999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </group>
+                                <group width="20" height="20" alignment="center" alpha="0.25" radius="10" id="yaX-JE-1bl">
+                                    <color key="backgroundColor" red="0.0" green="0.39954377689999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </group>
+                                <group width="20" height="20" alignment="center" alpha="0.25" radius="10" id="AxA-mn-hsw">
+                                    <color key="backgroundColor" red="0.0" green="0.39954377689999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="group" destination="Sek-4g-ch0" id="45o-SO-Sb7"/>
+                        <outlet property="group0" destination="qyh-gg-F9t" id="Io6-iH-srW"/>
+                        <outlet property="group1" destination="EcA-Wt-zrf" id="ryJ-7A-9hs"/>
+                        <outlet property="group2" destination="kDO-z6-0y0" id="rdZ-l2-IVC"/>
+                        <outlet property="group3" destination="yaX-JE-1bl" id="Qwa-0N-w61"/>
+                        <outlet property="group4" destination="AxA-mn-hsw" id="yg3-3e-IZe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="563" y="1602"/>
         </scene>
         <!--Insets-->
         <scene sceneID="vuZ-Qy-dWF">

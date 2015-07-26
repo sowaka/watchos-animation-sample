@@ -26,6 +26,7 @@
 		2BAB1A2E1B639C5B00BDC591 /* GroupInsetsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A271B639C5B00BDC591 /* GroupInsetsInterfaceController.swift */; };
 		2BAB1A2F1B639C5B00BDC591 /* SizeHeightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A281B639C5B00BDC591 /* SizeHeightInterfaceController.swift */; };
 		2BAB1A301B639C5B00BDC591 /* SizeWidthInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB1A291B639C5B00BDC591 /* SizeWidthInterfaceController.swift */; };
+		2BAD6F871B646520008FC56D /* SequentialInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD6F861B646520008FC56D /* SequentialInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		2BAB1A271B639C5B00BDC591 /* GroupInsetsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupInsetsInterfaceController.swift; sourceTree = "<group>"; };
 		2BAB1A281B639C5B00BDC591 /* SizeHeightInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeHeightInterfaceController.swift; sourceTree = "<group>"; };
 		2BAB1A291B639C5B00BDC591 /* SizeWidthInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeWidthInterfaceController.swift; sourceTree = "<group>"; };
+		2BAD6F861B646520008FC56D /* SequentialInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequentialInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				2BAB1A271B639C5B00BDC591 /* GroupInsetsInterfaceController.swift */,
 				2BAB1A281B639C5B00BDC591 /* SizeHeightInterfaceController.swift */,
 				2BAB1A291B639C5B00BDC591 /* SizeWidthInterfaceController.swift */,
+				2BAD6F861B646520008FC56D /* SequentialInterfaceController.swift */,
 				2BAB1A111B639C0600BDC591 /* Assets.xcassets */,
 				2BAB1A131B639C0600BDC591 /* Info.plist */,
 			);
@@ -323,6 +326,7 @@
 				2BAB1A301B639C5B00BDC591 /* SizeWidthInterfaceController.swift in Sources */,
 				2BAB1A2B1B639C5B00BDC591 /* AlignmentVerticalInterfaceController.swift in Sources */,
 				2BAB1A2C1B639C5B00BDC591 /* AlphaInterfaceController.swift in Sources */,
+				2BAD6F871B646520008FC56D /* SequentialInterfaceController.swift in Sources */,
 				2BAB1A2F1B639C5B00BDC591 /* SizeHeightInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,6 +548,7 @@
 				2BAB1A181B639C0600BDC591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BAB1A1A1B639C0600BDC591 /* Build configuration list for PBXNativeTarget "AnimationSample WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +557,7 @@
 				2BAB1A1C1B639C0600BDC591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BAB1A1E1B639C0600BDC591 /* Build configuration list for PBXNativeTarget "AnimationSample" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +566,7 @@
 				2BAB1A201B639C0600BDC591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
