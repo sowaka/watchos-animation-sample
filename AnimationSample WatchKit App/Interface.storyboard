@@ -66,6 +66,11 @@
                                 <segue destination="Q03-3a-xYy" kind="push" id="T1V-d7-THs"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="Spacer group" id="IeW-3R-7c1">
+                            <connections>
+                                <segue destination="DvZ-hh-CjA" kind="push" id="vsY-aM-dde"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
@@ -358,6 +363,45 @@ A
                 </controller>
             </objects>
             <point key="canvasLocation" x="563" y="1602"/>
+        </scene>
+        <!--Spacer group-->
+        <scene sceneID="gOg-ej-ht3">
+            <objects>
+                <controller title="Spacer group" hidesWhenLoading="NO" id="DvZ-hh-CjA" customClass="SpacerGroupInterfaceController" customModule="AnimationSample_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Mt0-9c-9nL">
+                            <items>
+                                <tableRow identifier="SpacerRow" id="pae-Ni-GGW" customClass="SpacerRow" customModule="AnimationSample_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="4Ax-om-9A5">
+                                        <items>
+                                            <group width="20" height="20" alignment="left" verticalAlignment="center" alpha="0.0" radius="10" id="uxv-hd-OtO">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" text="0" textAlignment="center" id="jfp-QO-PPt">
+                                                        <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.0" green="0.39954377689999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </group>
+                                            <group width="1" widthAdjustment="-10" alignment="left" id="sxu-gw-84Z" userLabel="Spacer Group"/>
+                                            <label alignment="left" verticalAlignment="center" alpha="0.0" text="Item" id="B2T-5F-XgD"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="itemLabel" destination="B2T-5F-XgD" id="AOX-TB-QTt"/>
+                                        <outlet property="numberGroup" destination="uxv-hd-OtO" id="Ti6-Ej-D63"/>
+                                        <outlet property="numberLabel" destination="jfp-QO-PPt" id="9vq-IM-e06"/>
+                                        <outlet property="spacerGroup" destination="sxu-gw-84Z" id="Cnh-VA-doy"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Mt0-9c-9nL" id="3QE-hc-blA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="563" y="1839"/>
         </scene>
         <!--Insets-->
         <scene sceneID="vuZ-Qy-dWF">
