@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B5049C61B676FE000A9ECB8 /* ConfirmInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5049C51B676FE000A9ECB8 /* ConfirmInterfaceController.swift */; };
 		2BAB19EB1B639C0600BDC591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB19EA1B639C0600BDC591 /* AppDelegate.swift */; };
 		2BAB19ED1B639C0600BDC591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB19EC1B639C0600BDC591 /* ViewController.swift */; };
 		2BAB19F01B639C0600BDC591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB19EE1B639C0600BDC591 /* Main.storyboard */; };
@@ -74,6 +75,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B5049C51B676FE000A9ECB8 /* ConfirmInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmInterfaceController.swift; sourceTree = "<group>"; };
 		2BAB19E71B639C0600BDC591 /* AnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAB19EA1B639C0600BDC591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BAB19EC1B639C0600BDC591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				2BAD6F861B646520008FC56D /* SequentialInterfaceController.swift */,
 				2BAD6F881B64AE99008FC56D /* SpacerGroupInterfaceController.swift */,
 				2BAD6F8A1B64AEFB008FC56D /* SpacerRow.swift */,
+				2B5049C51B676FE000A9ECB8 /* ConfirmInterfaceController.swift */,
 				2BAB1A111B639C0600BDC591 /* Assets.xcassets */,
 				2BAB1A131B639C0600BDC591 /* Info.plist */,
 			);
@@ -328,6 +331,7 @@
 				2BAB1A2A1B639C5B00BDC591 /* AlignmentHorizontalInterfaceController.swift in Sources */,
 				2BAB1A101B639C0600BDC591 /* ExtensionDelegate.swift in Sources */,
 				2BAB1A0E1B639C0600BDC591 /* InterfaceController.swift in Sources */,
+				2B5049C61B676FE000A9ECB8 /* ConfirmInterfaceController.swift in Sources */,
 				2BAB1A2D1B639C5B00BDC591 /* GroupBackgroundColorInterfaceController.swift in Sources */,
 				2BAB1A301B639C5B00BDC591 /* SizeWidthInterfaceController.swift in Sources */,
 				2BAB1A2B1B639C5B00BDC591 /* AlignmentVerticalInterfaceController.swift in Sources */,

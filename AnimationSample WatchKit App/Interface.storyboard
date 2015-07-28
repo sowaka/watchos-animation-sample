@@ -71,6 +71,11 @@
                                 <segue destination="DvZ-hh-CjA" kind="push" id="vsY-aM-dde"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="Notes" id="kqo-Bq-bbF">
+                            <connections>
+                                <segue destination="i2I-S4-NHw" kind="push" id="L8L-bE-I4P"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
@@ -403,6 +408,21 @@ A
             </objects>
             <point key="canvasLocation" x="563" y="1839"/>
         </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Q48-Ff-Jpm">
+            <objects>
+                <controller hidesWhenLoading="NO" id="i2I-S4-NHw">
+                    <items>
+                        <button width="1" alignment="left" title="Add Note" id="SoZ-kj-gwP">
+                            <connections>
+                                <segue destination="h5w-wU-axt" kind="modal" id="oaX-dS-1rR"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="562" y="2072"/>
+        </scene>
         <!--Insets-->
         <scene sceneID="vuZ-Qy-dWF">
             <objects>
@@ -489,6 +509,46 @@ A
                 </controller>
             </objects>
             <point key="canvasLocation" x="562" y="-6"/>
+        </scene>
+        <!--Confirmation-->
+        <scene sceneID="qTL-SD-yYP">
+            <objects>
+                <controller identifier="Confirmation" hidesWhenLoading="NO" id="h5w-wU-axt" customClass="ConfirmInterfaceController" customModule="AnimationSample_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" layout="vertical" id="kiG-bL-FGD" userLabel="Text Container">
+                            <items>
+                                <group width="2" height="2" alignment="right" verticalAlignment="bottom" alpha="0.0" backgroundImage="bubble" id="EzG-F5-4Kj" userLabel="Text Bubble">
+                                    <items>
+                                        <label alignment="left" text="Dummy text." numberOfLines="0" id="ho0-hs-RBJ"/>
+                                    </items>
+                                    <edgeInsets key="margins" left="10" right="10" top="6" bottom="10"/>
+                                </group>
+                                <button width="1" alignment="left" verticalAlignment="bottom" alpha="0.0" title="Confirm" id="WVI-dx-F7r">
+                                    <connections>
+                                        <action selector="tapConfirm" destination="h5w-wU-axt" id="yh4-Fl-5qF"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="2" alignment="left" verticalAlignment="bottom" alpha="0.0" layout="vertical" id="Xa1-1J-W3C" userLabel="Confirmation Container">
+                            <items>
+                                <imageView width="40" height="40" alignment="center" verticalAlignment="center" image="checkmark" id="Tqk-o8-exp"/>
+                                <label alignment="center" verticalAlignment="center" text="Success!" id="bP8-pF-c7Z">
+                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="bubbleLabel" destination="ho0-hs-RBJ" id="65o-D1-9Ve"/>
+                        <outlet property="confirmationButton" destination="WVI-dx-F7r" id="qRY-jX-N0d"/>
+                        <outlet property="confirmationContainer" destination="Xa1-1J-W3C" id="WgB-Dy-b0P"/>
+                        <outlet property="textBubble" destination="EzG-F5-4Kj" id="vwK-ly-eJD"/>
+                        <outlet property="textContainer" destination="kiG-bL-FGD" id="y3c-AS-NWZ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="736" y="2071"/>
         </scene>
     </scenes>
 </document>
